@@ -1,0 +1,98 @@
+/* Media quriy for 1104(max-width) */
+
+@media only screen and (max-width: 1104px) {
+    .max-width {
+        padding: 0px 30px;
+    }
+    .navbar .menu li a {
+        margin-left: 0px;
+    }
+}
+
+
+/* Media quriy for 1024(max-width) */
+
+@media only screen and (max-width: 1024px) {
+    .max-width {
+        padding: 0px 30px;
+    }
+    .navbar .menu li a {
+        margin-left: 0px;
+        padding: 0px 10px;
+    }
+    .feuni-logo {
+        flex-wrap: nowrap;
+    }
+    .app-btn-El {
+        margin-left: 0px;
+    }
+    .our-p {
+        padding: 0px;
+    }
+}
+
+
+/* Media quriy for 991px(max-width) */
+
+@media only screen and (max-width: 991px) {
+    .navbar .menu li a {
+        margin-left: 0px;
+    }
+    .home-nave a {
+        padding: 5px;
+    }
+    .our-ser1 {
+        width: calc(100% - 68%);
+    }
+    .news-0 {
+        align-items: initial;
+    }
+    .our-ser11 {
+        margin-right: 4px;
+    }
+}
+
+
+/* Media quriy for 947px(max-width) */
+
+@media only screen and (max-width: 947px) {
+    .navbar .menu li a {
+        margin-left: 0px;
+    }
+    .home-nave a {
+        padding: 2px;
+    }
+    .our-ser1 {
+        width: calc(100% - 68%);
+    }
+    .our-ser0,
+    .news-0,
+    .news-01 {
+        align-items: initial;
+    }
+    .our-ser11 {
+        margin-right: 4px;
+    }
+}
+
+
+/* 
+@media only screen and (min-width:768px) and (max-width: 897px) {
+    .navbar .menu li a {
+        margin-left: 0px;
+    }
+    .home-nave a {
+        padding: 2px;
+    }
+    .our-ser1 {
+        width: calc(100% - 68%);
+    }
+    .our-ser0,
+    .news-0,
+    .news-01 {
+        align-items: initial;
+    }
+    .our-ser11 {
+        margin-right: 4px;
+    }
+} */

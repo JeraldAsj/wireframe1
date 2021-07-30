@@ -1,0 +1,158 @@
+/* Media quriy for 767px(max-width) */
+
+@media only screen and (max-width: 767px) {
+    /* nave bar section */
+    .navbar {
+        box-shadow: 0px 0px 8px #e2e0e0;
+    }
+    menu {
+        justify-content: space-between;
+        position: fixed;
+        box-shadow: 0px 2px #6666ff;
+    }
+    .fa-bars {
+        color: black;
+    }
+    .max-width {
+        padding: 0 20px;
+    }
+    .btn-menu {
+        display: block;
+    }
+    .navbar .menu {
+        text-align: left;
+        position: fixed;
+        background: white;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 20px;
+        padding-top: 100px;
+        display: none;
+    }
+    .navbar .menu.active {
+        text-align: left;
+        display: block;
+        z-index: -1;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .pad {
+        padding: 40px 10px;
+    }
+    .app-btn-El {
+        margin-left: 0;
+        font-size: 25px;
+    }
+    .fa-lg {
+        margin-left: -2rem;
+    }
+    /* banar style */
+    .banar {
+        background: none;
+        text-align: center;
+    }
+    .main-h1 {
+        font-size: 40px;
+    }
+    .banar .max-width {
+        justify-content: center;
+    }
+    .feuni-logo {
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+    .active {
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* Our Services */
+    .our-p {
+        padding: 0px;
+    }
+    .our-ser0 {
+        flex-direction: column;
+    }
+    .our-ser1 {
+        width: calc(100% - 0px);
+        margin: 20px 0px;
+    }
+    .our-ser1 {
+        text-align: center;
+        padding: 20px 15px;
+    }
+    /* news */
+    .news-01 {
+        flex-direction: column;
+    }
+    .join {
+        margin-top: 45px;
+    }
+    .news-1 {
+        width: calc(100% - 0px);
+    }
+    .cc1 {
+        width: 313px;
+        margin: 10px auto;
+    }
+    .upun-1 {
+        width: 283px;
+        margin: 10px auto;
+    }
+    .news-1 {
+        margin: 20px 0px;
+    }
+    .Ready .max-width {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 18px;
+    }
+    .upun-1 {
+        text-align: center;
+        padding: 20px 15px;
+    }
+    .upun-1-1 {
+        display: block;
+    }
+    #upun-h2 {
+        margin-left: 0;
+        margin-top: 20px;
+        max-width: 698px;
+    }
+    .upun-le {
+        padding: 5px 0px 23px 0px;
+    }
+    .cc0 {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .cc1 {
+        padding-top: 40px;
+    }
+    .rd-btn {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .foot .max-width {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+    .foot-2 {
+        padding-top: 30px;
+    }
+    .foot-3 {
+        padding-top: 2rem;
+        align-self: center;
+    }
+}

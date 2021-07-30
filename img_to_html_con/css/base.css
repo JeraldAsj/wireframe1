@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Rubik;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.lSSlideOuter .lSPager.lSpg>li a {
+    background-color: lightgray;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.lSSlideOuter .lSPager.lSpg>li:hover a,
+.lSSlideOuter .lSPager.lSpg>li.active a {
+    height: 12px;
+    width: 12px;
+}
+
+.lSAction>.lSPrev,
+.lSAction>.lSNext {
+    display: none;
+}
+
+
+/* .item-a {
+    width: 200px;
+} */
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/* navbar styling */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background-color: white;
+    z-index: 100;
+}
+
+#img {
+    height: 50px;
+}
+
+.btn-menu {
+    display: none;
+    background: transparent;
+    border: none;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 20px;
+    transition: color 0.3s ease;
+}
+
+.app-btn-El {
+    background-color: white;
+    border: 2.5px solid rgb(128, 179, 228);
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 5px 20px;
+}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    color: rgb(168, 167, 167);
+}
+
+.marg {
+    padding: 0px 0px 0px 90px;
+}
+
+.pad {
+    padding: 29px 30px;
+}
+
+.ma-top {
+    padding: 4rem 0rem;
+}
+
+button,
+.fa {
+    cursor: pointer;
+}
+
+.home-nave a {
+    padding: 7px;
+}
+
+
+/* similar code */
+
+.banar .max-width,
+.Ready .max-width,
+.feuni-logo,
+.our-ser0,
+.news-01,
+.cc0,
+.foot .max-width {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* banaer section style start*/
+
+.banar {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: url("../img/graduate1.PNG");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 450px;
+}
+
+#span-el {
+    color: #7c86ff;
+}
+
+.ma {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.main-h1 {
+    font-size: 50px;
+    font-family: Rubik;
+    max-width: 400px;
+}
+
+.main-p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Rubik;
+    max-width: 500px;
+}
+
+.main-img {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.main-btn {
+    background-color: #6666ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 30px;
+    font-size: 1.2em;
+}
+
+.fa-arrow-right {
+    padding-left: 10px;
+}
+
+#right-arr {
+    height: 19px;
+    margin-left: 30px;
+}
+
+.main-soci>a>img {
+    margin-top: 50px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+
+/* banaer section style end*/
+
+
+/* feature univercity style start*/
+
+.feuni-logo {
+    z-index: -1;
+}
+
+.feuni {
+    padding: 4rem 0rem;
+    background-color: #f5f6f7;
+}
+
+.max-width>h3 {
+    text-align: center;
+    font-family: Rubik;
+    color: gray;
+}
+
+li>img {
+    margin-top: 40px;
+    height: 80px;
+    width: 217px;
+}
+
+
+/* feature univercity style end*/
+
+
+/* Our Services style start*/
+
+.our-el {
+    text-align: center;
+}
+
+.our-p {
+    padding: 0px 10rem;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: Rubik;
+}
+
+.our-ser1 {
+    background-color: white;
+    box-shadow: 0px 0px 8px #e2e0e0;
+    width: calc(33% - 20px);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
+
+.our-ser11 {
+    margin-left: 18px;
+    margin-right: 16px;
+}
+
+.our-ser1:hover {
+    border: 4px solid#6666ff;
+}
+
+.our-ser1>h3,
+.our-ser1>p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.our-ser1>div {
+    margin-top: 20px;
+}
+
+#our-a {
+    text-decoration: none;
+    color: #6666ff;
+}
+
+.our-ser01 {
+    margin: 0 230px;
+}
+
+.our-btn {
+    padding: 18px 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.our-btn1 {
+    background-color: #6666ff;
+}
+
+.our-btn2 {
+    background-color: #ff5758;
+}
+
+.our-btn3 {
+    background-color: #72cf8a;
+}
+
+.our-btn4 {
+    background-color: #5c96ff;
+}
+
+.our-btn5 {
+    background-color: #fa6f6b;
+}
+
+.fa-500px,
+.fa-book,
+.fa-check-square,
+.fa-home,
+.fa-plane {
+    color: white;
+}
+
+
+/* Our Services style end*/
+
+
+/* news section style start */
+
+.news-1>img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0;
+}
+
+.news-01 {
+    z-index: 1;
+}
+
+.news-0 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.join {
+    margin-top: 60px;
+}
+
+.news-1 {
+    background-color: white;
+    box-shadow: 0px 0px 8px #e2e0e0;
+    width: calc(33% - 20px);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.news-1>p {
+    padding: 20px 30px 5px 30px;
+}
+
+.news-1>h3 {
+    padding: 20px 25px 45px 25px;
+}
+
+.news-btn {
+    text-align: center;
+}
+
+
+/* news section style end */
+
+
+/* Upcoming University Event section style start*/
+
+.upun-0 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upun-1 {
+    background-color: white;
+    box-shadow: 0px 0px 8px #e2e0e0;
+    width: 550px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 20px 10px 2px;
+}
+
+.upun-1>p {
+    margin-top: 2rem;
+    line-height: 30px;
+}
+
+.upun-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #7c86ff;
+}
+
+#upun-h2 {
+    margin-left: 90px;
+    margin-top: -50px;
+    max-width: 250px;
+}
+
+.upun-1-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+/* Upcoming University Event section style end*/
+
+
+/* Countrys we Covered section style start*/
+
+.cc1>img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cc1>p {
+    margin-top: 1rem;
+    line-height: 30px;
+}
+
+.cc1 {
+    width: 355px;
+    border-radius: 20px;
+    margin: 10px 20px 10px 0.5px;
+}
+
+.cc1>h2 {
+    margin-top: 20px;
+}
+
+
+/* Countrys we Covered section style end*/
+
+
+/* Testimonial section style start */
+
+.cc,
+.news,
+.Ready {
+    background-color: #f5f6f7;
+}
+
+.te-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.testi-11 {
+    width: 490px;
+}
+
+.testi-1 {
+    margin-top: 40px;
+}
+
+.te-p {
+    font-size: 17px;
+}
+
+#upun-h2>h4 {
+    color: rgb(168, 167, 167);
+}
+
+.Ready>h1 {
+    font-size: 40px;
+}
+
+.rd-btn {
+    margin-top: 0;
+}
+
+
+/* Testimonial section style end */
+
+
+/* footer section style start */
+
+.foot {
+    padding: 50px 0;
+    background-color: #6666ff;
+    color: white;
+}
+
+.foot-1>img {
+    height: 45px;
+}
+
+.foot-1>p {
+    margin-top: 2rem;
+    line-height: 30px;
+    color: #fff;
+    max-width: 209px;
+}
+
+.foot-2>ul {
+    list-style: none;
+}
+
+.foot-2>ul>li>a {
+    text-decoration: none;
+    color: white;
+    line-height: 3rem;
+}
+
+.foot-3 {
+    padding-top: 152px;
+}
+
+.foot-3>a>.fa {
+    padding: 0 1.3rem;
+}
+
+.fa {
+    color: white;
+}
+
+
+/* footer section style end */
